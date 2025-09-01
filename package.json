@@ -1,0 +1,15 @@
+{
+  "name": "solana-token-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "@solana/web3.js": "^1.95.3",
+    "@solana/spl-token": "^0.3.11"
+  }
+}
